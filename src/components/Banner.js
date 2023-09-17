@@ -67,7 +67,7 @@ useEffect(() => {
           {/* image */}
           <motion.div variants={fadeIn('down', 0.5)} initial="hidden" whileInView={'show'} className='flex-1 lg:max-w-[500px] items-center justify-center transform-none'>
             {/* <img src={Image} alt="" /> */}
-            <div className=' mt-10'>
+            <div className='lg:mt-0 mt-10'>
               <div className="min-h-[100px] w-auto h-200 z-0 rounded-lg bg-dracula_background p-5 box-border" id='centerthis'>
                 <div className=" flex bg-transparent mb-3">
                   <div className="w-5 h-5 z-30 rounded-full bg-dracula_red mr-3"></div>
@@ -75,7 +75,7 @@ useEffect(() => {
                   <div className="w-5 h-5 z-30 rounded-full bg-dracula_green"></div>
                 </div>
                 <div>
-                  <div className='font-semibold'>
+                  <div className='font-semibold text-2xl'>
                     <p className=' text-white'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'whoami', 2000]} wrapper='span' speed={45} className=' text-dracula_green' cursor={false} /> </p>
                     <TypeAnimation sequence={['', 3000, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo nesciunt laborum sapiente excepturi voluptas repellendus veritatis dolores dicta. Optio!', 2000]} speed={80} wrapper='p' cursor={false} />
                   {isVisible &&  (<p className=' hidden-prompt'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'Nice to see you here!', 2000]} wrapper='span' speed={45} className=' text-dracula_green' /> </p>)}
