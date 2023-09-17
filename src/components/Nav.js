@@ -4,7 +4,7 @@ import { BsClipboard2Data, BsBriefcase, BsChatSquare, BsSquare, BsChatSquareText
 import { Link } from 'react-scroll';
 
 const Nav = () => {
-  return <nav className='fixed sm:hidden lg:flex bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
+  return <nav className='hidden fixed lg:flex bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
     <div className="container mx-auto">
       {/* {Nav inner} */}
       <div className='wf-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl text-white/50 items-center'>
