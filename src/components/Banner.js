@@ -75,7 +75,7 @@ useEffect(() => {
                   <div className="w-5 h-5 z-30 rounded-full bg-dracula_green"></div>
                 </div>
                 <div>
-                  <div className='font-semibold text-2xl'>
+                  <div className='font-semibold lg:text-2xl text-lg'>
                     <p className=' text-white'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'whoami', 2000]} wrapper='span' speed={45} className=' text-dracula_green' cursor={false} /> </p>
                     <TypeAnimation sequence={['', 3000, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo nesciunt laborum sapiente excepturi voluptas repellendus veritatis dolores dicta. Optio!', 2000]} speed={80} wrapper='p' cursor={false} />
                   {isVisible &&  (<p className=' hidden-prompt'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'Nice to see you here!', 2000]} wrapper='span' speed={45} className=' text-dracula_green' /> </p>)}
