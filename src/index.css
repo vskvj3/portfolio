@@ -54,6 +54,17 @@
   border-radius: 100%;
 }
 
+.hidden-prompt {
+  visibility: hidden;
+  animation: showText 5s linear forwards;
+}
+
+@keyframes showText {
+  to {
+      visibility: visible;
+  }
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
