@@ -22,7 +22,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className='min-h-[85vh] lg:min-h-[70vh] flex lg:items-center' id='home'>
+    <section className='min-h-[45vh] lg:min-h-[70vh] flex lg:items-center' id='home'>
       <div className="container mx-auto">
         <div className='lg:flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-14 justify-center'>
 
@@ -42,7 +42,7 @@ const Banner = () => {
                     <TypeAnimation sequence={['', 3000, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo nesciunt laborum sapiente excepturi voluptas repellendus veritatis dolores dicta. Optio!', 2000]} speed={80} wrapper='p' cursor={false} />
                     <br />
                     {/* socials */}
-                    <motion.div variants={fadeIn('right', 5.9)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} transition={{delay: 5000}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+                    <motion.div variants={fadeIn('right', 5.9)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} transition={{delay: 5000}} className='flex text-[20px] gap-x-6 max-w-max mx-auto sm:ml-0 lg:mx-0'>
 
                       <a href="#">
                         <FaGithub />
