@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-dracula_dark_red {
+  --tw-bg-opacity: 0.5;
+  background-color: rgb(255 85 85 / 0.5);
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,
@@ -97,3 +102,5 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+

@@ -32,9 +32,9 @@ const Banner = () => {
             <div className='lg:mt-0 mt-10'>
               <div className="min-h-[100px] w-auto h-200 z-0 rounded-lg bg-dracula_background p-5 box-border" id='centerthis'>
                 <div className=" flex bg-transparent mb-3">
-                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_red mr-3"></div>
-                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_yellow mr-3"></div>
-                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_green"></div>
+                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_red hover:bg-red-700 mr-3"></div>
+                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_yellow hover:bg-red-700 mr-3"></div>
+                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_green hover:bg-green-700"></div>
                 </div>
                 <div>
                   <div className='font-semibold lg:text-2xl text-lg'>
