@@ -44,13 +44,13 @@ const Banner = () => {
                     {/* socials */}
                     <motion.div variants={fadeIn('right', 5.9)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} transition={{delay: 5000}} className='flex text-[20px] gap-x-6 max-w-max mx-auto sm:ml-0 lg:mx-0'>
 
-                      <a href="#">
+                      <a href="https://github.com/vskvj3">
                         <FaGithub />
                       </a>
-                      <a href="#">
+                      <a href="https://linkedin.com/in/visakhvj3">
                         <FaLinkedin />
                       </a>
-                      <a href="#">
+                      <a href="https://linktr.ee/visakhvijay">
                         <FaTree />
                       </a>
                     </motion.div>
