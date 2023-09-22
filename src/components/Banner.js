@@ -22,7 +22,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className='min-h-[45vh] lg:min-h-[70vh] flex lg:items-center' id='home'>
+    <section className='min-h-[55vh] lg:min-h-[70vh] flex lg:items-center' id='home'>
       <div className="container mx-auto">
         <div className='lg:flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-14 justify-center'>
 
