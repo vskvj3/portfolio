@@ -34,11 +34,11 @@ const Work = () => {
                 <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
                 {/* before hover */}
                 <div>
-                  <div className='absolute top-10 group-hover:-top-full transition-all duration-300 left-12  z-50'>
-                    <span className=' font-semibold text-3xl text-white'>AlertMe</span>
-                    <p className='text-xl text-white'>Android application developed to send emergency alert to nearby users, emergency contacts and authorities.</p>
+                  <div className='absolute top-7 lg:top-10 group-hover:-top-full transition-all duration-300 left-6 lg:left-12  z-50'>
+                    <span className='font-semibold text-xl lg:text-3xl text-white'>AlertMe</span>
+                    <p className='text-sm lg:text-xl text-white mt-1'>Android application developed to send emergency alert to nearby users, emergency contacts and authorities.</p>
                   </div>
-                  <div className='flex-row absolute top-40 group-hover:-top-full transition-all duration-300 left-12  z-50'>
+                  <div className='flex-row absolute top-32 lg:top-40 group-hover:-top-full transition-all duration-300 left-2  lg:left-12  z-50'>
                     < Chips content={'Node.js'} />
                     < Chips content={'Flutter'} />
                     < Chips content={'MongoDB'} />
@@ -76,11 +76,11 @@ const Work = () => {
                 <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt="" />
                 {/* before hover */}
                 <div>
-                  <div className='absolute top-10 group-hover:-top-full transition-all duration-300 left-12  z-50'>
-                    <span className=' font-semibold text-3xl text-white'>Hostel Manager</span>
-                    <p className='text-xl text-white'>A software developed to monitor daily attendance, track expanses and calculate mess bill for a hostel.</p>
+                  <div className='absolute top-7 lg:top-10 group-hover:-top-full transition-all duration-300 left-6 lg:left-12  z-50'>
+                    <span className=' font-semibold text-xl lg:text-3xl text-white'>Hostel Manager</span>
+                    <p className='text-sm lg:text-xl text-white mt-1'>A software developed to monitor daily attendance, track expanses and calculate mess bill for a hostel.</p>
                   </div>
-                  <div className='flex-row absolute top-40 group-hover:-top-full transition-all duration-300 left-12  z-50'>
+                  <div className='flex-row absolute top-36 lg:top-32 group-hover:-top-full transition-all duration-300 left-2 lg:left-12  z-50'>
                     < Chips content={'Java'} />
                     < Chips content={'MySQL'} />
                     < Chips content={'JDBC'} />
@@ -116,11 +116,11 @@ const Work = () => {
                 <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt="" />
                 {/* before hover */}
                 <div>
-                  <div className='absolute top-10 group-hover:-top-full transition-all duration-300 left-12  z-50'>
-                    <span className=' font-semibold text-3xl text-white'>Ambience</span>
-                    <p className='text-xl text-white'>An android application developed to listen audiobooks from streaming services with advanced controlls and background sound functionality.</p>
+                  <div className='absolute top-7 lg:top-10 group-hover:-top-full transition-all duration-300 left-6 lg:left-12  z-50'>
+                    <span className=' font-semibold text-xl sm:text-3xl text-white'>Ambience</span>
+                    <p className='text-sm lg:text-xl text-white mt-1'>An android application developed to listen audiobooks from streaming services with advanced controlls and background sound functionality.</p>
                   </div>
-                  <div className='flex-row absolute top-40 group-hover:-top-full transition-all duration-300 left-12  z-50'>
+                  <div className='flex-row absolute top-32 lg:top-40 group-hover:-top-full transition-all duration-300 left-2 lg:left-12  z-50'>
                     < Chips content={'Java'} />
                     < Chips content={'MySQL'} />
                     < Chips content={'JDBC'} />
