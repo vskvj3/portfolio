@@ -33,13 +33,14 @@ const Banner = () => {
               <div className="min-h-[100px] w-auto h-200 z-0 rounded-lg bg-dracula_background p-5 box-border" id='centerthis'>
                 <div className=" flex bg-transparent mb-3">
                   <div className="w-5 h-5 z-30 rounded-full bg-dracula_red hover:bg-red-700 mr-3"></div>
-                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_yellow hover:bg-red-700 mr-3"></div>
+                  <div className="w-5 h-5 z-30 rounded-full bg-dracula_yellow hover:bg-yellow-700 mr-3"></div>
                   <div className="w-5 h-5 z-30 rounded-full bg-dracula_green hover:bg-green-700"></div>
                 </div>
                 <div>
                   <div className='font-semibold lg:text-2xl text-lg'>
                     <p className=' text-white'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'whoami', 2000]} wrapper='span' speed={45} className=' text-dracula_green' cursor={false} /> </p>
-                    <TypeAnimation sequence={['', 3000, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo nesciunt laborum sapiente excepturi voluptas repellendus veritatis dolores dicta. Optio!', 2000]} speed={80} wrapper='p' cursor={false} />
+                    <TypeAnimation sequence={['', 3000, 'I\'m Visakh Vijay O']} speed={80} wrapper='p' cursor={false} />
+                    <TypeAnimation sequence={['', 4000, 'Im a 3rd year computer science student @RIT Kottayam', 2000]} speed={80} wrapper='p' cursor={false} />
                     <br />
                     {/* socials */}
                     <motion.div variants={fadeIn('right', 5.9)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} transition={{delay: 5000}} className='flex text-[20px] gap-x-6 max-w-max mx-auto sm:ml-0 lg:mx-0'>
