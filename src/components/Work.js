@@ -11,7 +11,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row gap-x-10 '>
 
-          <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+          <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 lg:justify-between md:justify-between'>
           <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className=''>
             {/* text */}
             <div>
@@ -19,8 +19,7 @@ const Work = () => {
                 My Latest <br /> Work
               </h2>
               <p className='max-w-sm mb-16 '>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, maxime error eius fuga pariatur molestiae deserunt accusantium perspiciatis facere culpa!
-
+                Here are some of my favourite projects                 
               </p>
               <button className='btn btn-sm'>View all Projects</button>
             </div>
@@ -46,7 +45,7 @@ const Work = () => {
           </motion.div>
           </div>
 
-          <div className='flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0'>
+          <div className='flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0  lg:justify-between md:justify-between'>
             <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className=''>
               {/* image  */}
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
