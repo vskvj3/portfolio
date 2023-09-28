@@ -1,8 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import { useState } from 'react';
 
 const Contact = () => {
+  const [emailValue, setEmailValue] = useState('');
+  const [nameValue, setNameValue] = useState('');
+  const [messageValue, setMessageValue] = useState('');
+
+  const sendMail = () => {
+    window.location.href = `mailto:{emailValue}?subject={nameValue}&body={messageValue}`;
+  };
+
   return (
     <section className='py-16 lg:section' id='contact'>
       <div className='container mx-auto'>
@@ -18,10 +27,27 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form variants={fadeIn('right', 0.2)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.3}} className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-            <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your email' />
-            <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your name' />
-            <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'placeholder='Your message'></textarea>
-            <button className='btn btn-lg'> Send Message</button>
+            <input 
+                  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
+                  type="text" 
+                  placeholder='Your email' 
+                  value={emailValue}
+                  onChange={(e) => setEmailValue(e.target.value)}
+            />
+            <input 
+                  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
+                  type="text" 
+                  placeholder='Your name'
+                  value={nameValue}
+                  onChange={(e) => setNameValue(e.target.value)} 
+            />
+            <textarea 
+                  className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
+                  placeholder='Your message'
+                  value={messageValue}
+                  onChange={(e) => setMessageValue(e.target.value)}
+                  ></textarea>
+            <button className='btn btn-lg' onClick={sendMail}> Send Message</button>
           </motion.form>
         </div>
       </div>
