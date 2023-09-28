@@ -40,7 +40,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-600 z-50'>
-                <span className='text-3xl text-white'>Alertme: Emergency Alert Application</span>
+                <span className='text-3xl text-white'>Alertme</span>
               </div>
             </div>
           </motion.div>
@@ -57,12 +57,12 @@ const Work = () => {
                 {/* pretitle */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>
-                    UI/UX Designs
+                    Academic Project
                   </span>
                 </div>
                 {/* title */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-600 z-50'>
-                  <span className='text-3xl text-white'>Project Title</span>
+                  <span className='text-3xl text-white'>Hostel Manager</span>
                 </div>
               </div>
             </motion.div>
@@ -75,12 +75,12 @@ const Work = () => {
                 {/* pretitle */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>
-                    UI/UX Designs
+                    Hobby Project
                   </span>
                 </div>
                 {/* title */}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-600 z-50'>
-                  <span className='text-3xl text-white'>Project Title</span>
+                  <span className='text-3xl text-white'>Ambience</span>
                 </div>
               </div>
             </motion.div>
