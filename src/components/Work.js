@@ -7,6 +7,22 @@ import img2 from '../assets/portfolio-img2.png';
 import img3 from '../assets/portfolio-img3.png';
 
 const Work = () => {
+  const getGithub = () => {
+    window.location.href = 'https://github.com/vskvj3';
+  };
+  const getRepo1 = (repo) => {
+    window.location.href = 'https://github.com/vskvj3/hostel-management-system';
+    
+  };
+  const getRepo2 = (repo) => {
+    window.location.href = 'https://github.com/vskvj3/alertMe_v2';
+    
+  };
+  const getRepo3 = (repo) => {
+    window.location.href = 'https://github.com/vskvj3/audiobook_player';
+    
+  };
+  
   return (
     <section className='section' id='work'>
       <div className="container mx-auto">
@@ -22,7 +38,7 @@ const Work = () => {
                 <p className='max-w-sm mb-16 '>
                   Here are some of my favourite projects
                 </p>
-                <button className='btn btn-sm'>View all Projects</button>
+                <button className='btn btn-sm' onClick={getGithub}>View all Projects</button>
               </div>
             </motion.div>
             <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className=''>
@@ -65,7 +81,7 @@ const Work = () => {
                 </div>
 
                 <div className='absolute -bottom-full left-6 lg:left-12 group-hover:lg:bottom-24 group-hover:bottom-10 transition-all duration-600 z-50'>
-                  <button className='btn btn-sm sm:text-sm'>View Project</button>
+                  <button className='btn btn-sm sm:text-sm' onClick={getRepo2}>View Project</button>
                 </div>
               </div>
             </motion.div>
@@ -108,7 +124,7 @@ const Work = () => {
                   </div>
 
                   <div className='absolute -bottom-full left-6 lg:left-12 group-hover:lg:bottom-24 group-hover:bottom-10 transition-all duration-600 z-50'>
-                    <button className='btn btn-sm sm:text-sm'>View Project</button>
+                    <button className='btn btn-sm sm:text-sm' onClick={getRepo1}>View Project</button>
                   </div>
                 </div>
               </div>
@@ -144,7 +160,7 @@ const Work = () => {
                 </div>
 
                 <div className='absolute -bottom-full left-6 lg:left-12 group-hover:lg:bottom-24 group-hover:bottom-10 transition-all duration-600 z-50'>
-                  <button className='btn btn-sm sm:text-sm'>View Project</button>
+                  <button className='btn btn-sm sm:text-sm' onClick={getRepo3}>View Project</button>
                 </div>
               </div>
             </motion.div>
