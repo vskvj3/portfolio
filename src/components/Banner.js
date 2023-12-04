@@ -40,7 +40,7 @@ const Banner = () => {
                   <div className='font-semibold lg:text-2xl text-lg'>
                     <p className=' text-white'>[vskvj3@github] <TypeAnimation sequence={['', 2000, 'whoami', 2000]} wrapper='span' speed={45} className=' text-dracula_green' cursor={false} /> </p>
                     <TypeAnimation sequence={['', 3000, 'I\'m Visakh Vijay O']} speed={80} wrapper='p' cursor={false} />
-                    <TypeAnimation sequence={['', 4000, 'Im a 3rd year computer science student @RIT Kottayam', 2000]} speed={80} wrapper='p' cursor={false} />
+                    <TypeAnimation sequence={['', 4000, 'Im a 4th year computer science student @RIT Kottayam', 2000]} speed={80} wrapper='p' cursor={false} />
                     <br />
                     {/* socials */}
                     <motion.div variants={fadeIn('right', 5.9)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.7 }} transition={{delay: 5000}} className='flex text-[20px] gap-x-6 max-w-max mx-auto sm:ml-0 lg:mx-0'>
